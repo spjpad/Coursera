@@ -1,0 +1,137 @@
+
+/********Simple Responsive Framework*****/
+
+* {box-sizing: border-box;}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    padding: 10px;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;}
+
+span {
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    position: absolute;
+    font-size: 1.3em;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    }
+
+p {
+    padding:  30px 5px 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+    margin: 15px;
+
+}
+
+#box {
+    width: 100%;
+    background-color:rgb(194, 214, 214) ;
+    border: 2px solid black;
+    overflow: auto;
+    position: relative;
+    float: left;
+    text-align: right;
+    font-size: 0.8em;
+    }
+
+
+#section
+{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(255, 187, 153);
+    background-size: contain;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    opacity: 5;
+}
+
+#section2
+{
+    width: 150px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(191, 64, 64);
+    background-size: contain;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    opacity: 5;
+}
+
+#section3
+{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(255, 204, 128);
+    background-size: contain;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    opacity: 5;
+}
+
+
+/********Simple Responsive Framework*****/
+
+.row {width: 100%;}
+
+
+
+/**********Large devices only************/
+
+@media (max-width: 991px) and (min-width:768px){
+    .col-md-6,.col-md-12 {
+        float: left;
+        border: 1px;
+        padding: 20px;
+        border-color: black ;}
+        .col-md-6{
+            width: 50%;}
+        .col-md-12{
+            width: 100%;}}
+
+/**********Medium devices only***********/
+
+@media (min-width: 992px){
+        .col-lg-4,.col-lg-6
+        {
+        float: left;
+        border: 1px;
+        padding: 20px;
+        border-color: black; 
+        }
+        .col-lg-4{
+            width: 33.33%;}
+        .col-lg-6{
+            width: 50%;}
+        }
+/*********Small devices******************/
+
+@media (max-width: 767px){
+        .col-sm-12 {
+        float: left;
+        border: 1px;
+        padding: 20px;
+        border-color: black ;
+}
+
+        .col-sm-12{
+            width: 100%;}}
+
+
